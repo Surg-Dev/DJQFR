@@ -34,6 +34,10 @@
     "IDEVersion": "2023.2.1.75",
   },
   "resources": [
+    {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
+    {"id":{"name":"o_solid","path":"objects/o_solid/o_solid.yy",},},
+    {"id":{"name":"spr_solid","path":"sprites/spr_solid/spr_solid.yy",},},
+    {"id":{"name":"o_player","path":"objects/o_player/o_player.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [

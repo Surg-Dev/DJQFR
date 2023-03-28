@@ -16,5 +16,8 @@
     {"name":"Extensions","order":14,"path":"folders/Extensions.yy",},
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
   ],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"o_solid","order":1,"path":"objects/o_solid/o_solid.yy",},
+    {"name":"spr_solid","order":1,"path":"sprites/spr_solid/spr_solid.yy",},
+  ],
 }
