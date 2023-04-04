@@ -12,3 +12,7 @@ if (dx!=0){
 }
 
 move_and_collide(dx, dy, o_solid)
+
+if(phealth == 0) {
+	room_goto(reset_screen)
+}
