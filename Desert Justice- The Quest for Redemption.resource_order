@@ -18,7 +18,10 @@
   ],
   "ResourceOrderSettings": [
     {"name":"o_solid","order":1,"path":"objects/o_solid/o_solid.yy",},
+    {"name":"o_start_button","order":3,"path":"objects/o_start_button/o_start_button.yy",},
     {"name":"spr_solid","order":1,"path":"sprites/spr_solid/spr_solid.yy",},
+    {"name":"spr_start_button","order":2,"path":"sprites/spr_start_button/spr_start_button.yy",},
     {"name":"o_camera","order":2,"path":"objects/o_camera/o_camera.yy",},
+    {"name":"start_screen","order":1,"path":"rooms/start_screen/start_screen.yy",},
   ],
 }
