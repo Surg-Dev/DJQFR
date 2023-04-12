@@ -14,3 +14,5 @@ debug_angle = 0;
 
 // Shorthand for direction, 0 is left, going counterclockwise until down-left 7
 self_direction = 6;
+
+debug_timer = 0;

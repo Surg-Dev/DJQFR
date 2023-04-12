@@ -13,6 +13,5 @@ if(instance_exists(o_player)){
 	var _cur_y = camera_get_view_y(view);
 	var _spd = 0.1;
 	
-	show_debug_message(_cur_x, _x)
 	camera_set_view_pos(view, lerp(_cur_x, _x, _spd), lerp(_cur_y, _y, _spd));
 }
