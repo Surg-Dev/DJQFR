@@ -1,1 +1,1 @@
-// Alarm that prevents interact Spamming
+/// @description Alarm for Interact Cooldown

@@ -3,6 +3,13 @@
 var hori = keyboard_check(vk_right) - keyboard_check(vk_left);
 var vert = keyboard_check(vk_down) - keyboard_check(vk_up);
 
+if (alarm[1]!= -1 ){
+	debug_timer+=1
+}
+if (alarm[1] != -1 and image_index == 3){
+	show_debug_message(debug_timer)
+}
+
 var dx = hspd * hori;
 var dy = vspd * vert;
 
@@ -35,6 +42,7 @@ if (keyboard_check_pressed(ord("Z")) and alarm[1] == -1){
 			break;
 	}
 	alarm[1] = 16;
+	alarm[2] = 12;
 	image_index = 0;
 }
 #endregion
