@@ -11,3 +11,6 @@ phealth = 100
 last_sprite = spr_player_idle_down
 
 debug_angle = 0;
+
+// Shorthand for direction, 0 is left, going counterclockwise until down-left 7
+self_direction = 6;
