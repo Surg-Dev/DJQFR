@@ -45,6 +45,7 @@
     {"id":{"name":"spr_player_shoot_side","path":"sprites/spr_player_shoot_side/spr_player_shoot_side.yy",},},
     {"id":{"name":"o_solid","path":"objects/o_solid/o_solid.yy",},},
     {"id":{"name":"o_start_button","path":"objects/o_start_button/o_start_button.yy",},},
+    {"id":{"name":"o_enemy","path":"objects/o_enemy/o_enemy.yy",},},
     {"id":{"name":"spr_player_idle_side","path":"sprites/spr_player_idle_side/spr_player_idle_side.yy",},},
     {"id":{"name":"spr_solid","path":"sprites/spr_solid/spr_solid.yy",},},
     {"id":{"name":"spr_interact_collision_mask","path":"sprites/spr_interact_collision_mask/spr_interact_collision_mask.yy",},},
