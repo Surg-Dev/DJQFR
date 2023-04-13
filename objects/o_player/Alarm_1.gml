@@ -1,0 +1,1 @@
+/// @description Alarm for Shooting Cooldown
