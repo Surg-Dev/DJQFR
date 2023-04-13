@@ -1,0 +1,1 @@
+o_player.phealth -= 0.5
