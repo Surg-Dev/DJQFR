@@ -3,8 +3,12 @@
 hspd = 3
 vspd = 3
 
+// health variables
 max_health = 100
 phealth = 100
+
+inventory = ds_map_create()
+inventoryItems = ds_list_create()
 
 
 // Stores the last sprite to know which idle to use.
