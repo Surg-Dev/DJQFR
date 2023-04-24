@@ -9,6 +9,7 @@ phealth = 100
 
 inventory = ds_map_create()
 inventoryItems = ds_list_create()
+showInventory = false
 
 
 // Stores the last sprite to know which idle to use.
