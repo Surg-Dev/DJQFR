@@ -8,9 +8,10 @@ max_health = 100
 phealth = 100
 coins = 0
 
-inventory = ds_map_create()
+// inventory = ds_map_create()
 inventoryItems = ds_list_create()
-showInventory = false
+
+showCollectibles = true
 
 
 

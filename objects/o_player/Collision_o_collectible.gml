@@ -1,6 +1,6 @@
 /// @description pickups
 // You can write your code in this editor
-
+/*
 var key = other.object_index;
 var value = other.value;
 
@@ -13,7 +13,7 @@ if (ds_map_exists(inventory, key)){
 	ds_map_add(inventory, key, value);
 	ds_list_add(inventoryItems, key)
 }
-
+*/
 
 instance_destroy(other);
 
