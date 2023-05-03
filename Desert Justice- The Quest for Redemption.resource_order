@@ -7,6 +7,7 @@
     {"name":"o_solid","order":1,"path":"objects/o_solid/o_solid.yy",},
     {"name":"obj_player_hurtobj","order":2,"path":"objects/obj_player_hurtobj/obj_player_hurtobj.yy",},
     {"name":"s_boss_lunge","order":1,"path":"sprites/s_boss_lunge/s_boss_lunge.yy",},
+    {"name":"music_menu","order":1,"path":"sounds/music_menu/music_menu.yy",},
     {"name":"obj_shotgun_pickup","order":1,"path":"objects/obj_shotgun_pickup/obj_shotgun_pickup.yy",},
     {"name":"spr_roll_solid","order":2,"path":"sprites/spr_roll_solid/spr_roll_solid.yy",},
     {"name":"o_control","order":3,"path":"objects/o_control/o_control.yy",},
