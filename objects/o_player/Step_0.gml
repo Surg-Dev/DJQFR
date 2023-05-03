@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-var hori = keyboard_check(vk_right) - keyboard_check(vk_left);
-var vert = keyboard_check(vk_down) - keyboard_check(vk_up);
+var hori = input_check("right") - input_check("left");
+var vert = input_check("down") - input_check("up");
 
 if (alarm[1]!= -1 ){
 	debug_timer+=1
@@ -10,11 +10,20 @@ if (alarm[1] != -1 and image_index == 3){
 	show_debug_message(debug_timer)
 }
 
+
 var dx = hspd * hori;
 var dy = vspd * vert;
 
+//#region
+//if (input_check_double_pressed("left",,10)){
+//	dx=dx*2
+//}
+//dd = dx
+//#endregion
+
+
 #region Shooting
-if (keyboard_check_pressed(ord("Z")) and alarm[1] == -1){
+if (input_check_pressed("shoot") and alarm[1] == -1){
 	switch(self_direction){
 		case 0:
 			sprite_index = spr_player_shoot_side;
@@ -49,6 +58,8 @@ if (keyboard_check_pressed(ord("Z")) and alarm[1] == -1){
 	image_index = 0;
 }
 #endregion
+
+
 
 #region Sprite Selection Code
 
@@ -141,7 +152,7 @@ if (dx!=0 and dy!=0){
 }
 
 // Interact Logic
-if (keyboard_check_pressed(ord("X")) and alarm[0] == -1){
+if (input_check_pressed("interact") and alarm[0] == -1){
 	var __x = 0;
 	var __y = 0;
 	switch(self_direction){
