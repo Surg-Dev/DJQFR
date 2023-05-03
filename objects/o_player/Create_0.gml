@@ -25,6 +25,6 @@ self_direction = 6;
 
 debug_timer = 0;
 
-shotgun = true;
+shotgun = false;
 
 dd = 0;

@@ -1,21 +1,18 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "o_silver_coin",
+  "name": "obj_player_hurtobj",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_player_hurtobj","path":"objects/obj_player_hurtobj/obj_player_hurtobj.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "coins",
-    "path": "folders/Objects/coins.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
-  "parentObjectId": {
-    "name": "o_collectible",
-    "path": "objects/o_collectible/o_collectible.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -32,9 +29,12 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_silver_coin",
-    "path": "sprites/spr_silver_coin/spr_silver_coin.yy",
+    "name": "spr_enemy_collision_mask",
+    "path": "sprites/spr_enemy_collision_mask/spr_enemy_collision_mask.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_enemy_collision_mask",
+    "path": "sprites/spr_enemy_collision_mask/spr_enemy_collision_mask.yy",
+  },
   "visible": true,
 }
