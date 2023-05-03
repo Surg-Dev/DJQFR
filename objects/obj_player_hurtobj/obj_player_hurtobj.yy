@@ -36,5 +36,5 @@
     "name": "spr_enemy_collision_mask",
     "path": "sprites/spr_enemy_collision_mask/spr_enemy_collision_mask.yy",
   },
-  "visible": true,
+  "visible": false,
 }

@@ -1,10 +1,13 @@
 {
-  "FolderOrderSettings": [],
+  "FolderOrderSettings": [
+    {"name":"Music","order":1,"path":"folders/Music.yy",},
+  ],
   "ResourceOrderSettings": [
     {"name":"obj_player_hurtobj","order":2,"path":"objects/obj_player_hurtobj/obj_player_hurtobj.yy",},
     {"name":"s_boss_lunge","order":1,"path":"sprites/s_boss_lunge/s_boss_lunge.yy",},
     {"name":"obj_shotgun_pickup","order":1,"path":"objects/obj_shotgun_pickup/obj_shotgun_pickup.yy",},
     {"name":"s_boss2_lunge","order":2,"path":"sprites/s_boss2_lunge/s_boss2_lunge.yy",},
+    {"name":"o_control","order":3,"path":"objects/o_control/o_control.yy",},
     {"name":"snd_powerup","order":1,"path":"sounds/snd_powerup/snd_powerup.yy",},
     {"name":"spr_shotgun_icon","order":1,"path":"sprites/spr_shotgun_icon/spr_shotgun_icon.yy",},
   ],
