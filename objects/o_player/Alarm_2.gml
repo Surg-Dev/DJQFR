@@ -47,3 +47,5 @@ with(instance_create_layer(x+_x, y+_y, layer, o_bullet)){
 		speed = 5
 		direction = _angle
 }
+// Play shooting sound, vary pitch slightly to keep it interesting.
+audio_play_sound(snd_shoot,1,false,,,random_range(.95,1.15));
