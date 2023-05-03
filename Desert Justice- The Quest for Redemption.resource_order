@@ -1,12 +1,16 @@
 {
   "FolderOrderSettings": [
     {"name":"Music","order":1,"path":"folders/Music.yy",},
+    {"name":"Solids","order":5,"path":"folders/Objects/Solids.yy",},
   ],
   "ResourceOrderSettings": [
-    {"name":"s_boss_lunge","order":1,"path":"sprites/s_boss_lunge/s_boss_lunge.yy",},
+    {"name":"o_solid","order":1,"path":"objects/o_solid/o_solid.yy",},
     {"name":"obj_player_hurtobj","order":2,"path":"objects/obj_player_hurtobj/obj_player_hurtobj.yy",},
+    {"name":"s_boss_lunge","order":1,"path":"sprites/s_boss_lunge/s_boss_lunge.yy",},
     {"name":"obj_shotgun_pickup","order":1,"path":"objects/obj_shotgun_pickup/obj_shotgun_pickup.yy",},
+    {"name":"spr_roll_solid","order":2,"path":"sprites/spr_roll_solid/spr_roll_solid.yy",},
     {"name":"o_control","order":3,"path":"objects/o_control/o_control.yy",},
+    {"name":"o_roll_solid","order":2,"path":"objects/o_roll_solid/o_roll_solid.yy",},
     {"name":"snd_powerup","order":1,"path":"sounds/snd_powerup/snd_powerup.yy",},
     {"name":"spr_shotgun_icon","order":1,"path":"sprites/spr_shotgun_icon/spr_shotgun_icon.yy",},
   ],

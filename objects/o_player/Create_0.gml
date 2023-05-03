@@ -25,6 +25,9 @@ self_direction = 6;
 
 debug_timer = 0;
 
+//Upgrades
 shotgun = false;
+combat_roll = true;
+roll_dir = [0,0]
 
 dd = 0;
