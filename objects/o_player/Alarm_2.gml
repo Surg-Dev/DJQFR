@@ -47,5 +47,16 @@ with(instance_create_layer(x+_x, y+_y, layer, o_bullet)){
 		speed = 5
 		direction = _angle
 }
+
+if (shotgun){
+	with(instance_create_layer(x+_x, y+_y, layer, o_bullet)){
+			speed = 5
+			direction = _angle+5;
+	}
+	with(instance_create_layer(x+_x, y+_y, layer, o_bullet)){
+			speed = 5
+			direction = _angle-5;
+	}	
+}
 // Play shooting sound, vary pitch slightly to keep it interesting.
-audio_play_sound(snd_shoot,1,false,,,random_range(.95,1.15));
+audio_play_sound(snd_shoot,1,false,shotgun ? 1.20 : 1,,random_range(.95,1.15));

@@ -24,3 +24,5 @@ debug_angle = 0;
 self_direction = 6;
 
 debug_timer = 0;
+
+shotgun = true;

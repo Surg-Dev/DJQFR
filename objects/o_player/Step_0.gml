@@ -41,6 +41,9 @@ if (keyboard_check_pressed(ord("Z")) and alarm[1] == -1){
 			sprite_index = spr_player_shoot_diagdown;
 			break;
 	}
+	if (shotgun){
+		audio_play_sound(snd_shotgun_click,2,false,,,random_range(.95,1.05));
+	}
 	alarm[1] = 16;
 	alarm[2] = 12;
 	image_index = 0;
