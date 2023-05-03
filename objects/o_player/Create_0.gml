@@ -1,4 +1,4 @@
-/// @description Insert description here
+ /// @description Insert description here
 // You can write your code in this editor
 hspd = 3
 vspd = 3
@@ -25,6 +25,9 @@ self_direction = 6;
 
 debug_timer = 0;
 
-shotgun = true;
+//Upgrades
+shotgun = false;
+combat_roll = true;
+roll_dir = [0,0]
 
 dd = 0;
