@@ -69,6 +69,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Walk","folderPath":"folders/Sprites/Player/Walk.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Music","folderPath":"folders/Music.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"controllerblacklist.csv","CopyToMask":-1,"filePath":"datafiles",},
@@ -211,6 +212,7 @@
     {"id":{"name":"input_y","path":"scripts/input_y/input_y.yy",},},
     {"id":{"name":"__input_source_relinquish","path":"scripts/__input_source_relinquish/__input_source_relinquish.yy",},},
     {"id":{"name":"__input_config_keyboard","path":"scripts/__input_config_keyboard/__input_config_keyboard.yy",},},
+    {"id":{"name":"mus_overworld","path":"sounds/mus_overworld/mus_overworld.yy",},},
     {"id":{"name":"__input_class_verb_state","path":"scripts/__input_class_verb_state/__input_class_verb_state.yy",},},
     {"id":{"name":"input_keyboard_check_pressed","path":"scripts/input_keyboard_check_pressed/input_keyboard_check_pressed.yy",},},
     {"id":{"name":"__input_gamepad_set_type","path":"scripts/__input_gamepad_set_type/__input_gamepad_set_type.yy",},},
@@ -241,6 +243,7 @@
     {"id":{"name":"__input_class_player","path":"scripts/__input_class_player/__input_class_player.yy",},},
     {"id":{"name":"spr_gold_coin","path":"sprites/spr_gold_coin/spr_gold_coin.yy",},},
     {"id":{"name":"input_binding_scan_in_progress","path":"scripts/input_binding_scan_in_progress/input_binding_scan_in_progress.yy",},},
+    {"id":{"name":"o_control","path":"objects/o_control/o_control.yy",},},
     {"id":{"name":"input_binding_get_verbs","path":"scripts/input_binding_get_verbs/input_binding_get_verbs.yy",},},
     {"id":{"name":"input_source_add","path":"scripts/input_source_add/input_source_add.yy",},},
     {"id":{"name":"input_virtual_create","path":"scripts/input_virtual_create/input_virtual_create.yy",},},
