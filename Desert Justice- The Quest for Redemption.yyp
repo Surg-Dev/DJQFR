@@ -80,7 +80,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.2.1.75",
+    "IDEVersion": "2023.4.0.84",
   },
   "resources": [
     {"id":{"name":"o_shooter","path":"objects/o_shooter/o_shooter.yy",},},
@@ -198,6 +198,7 @@
     {"id":{"name":"__input_config_external_data","path":"scripts/__input_config_external_data/__input_config_external_data.yy",},},
     {"id":{"name":"input_trigger_effect_weapon","path":"scripts/input_trigger_effect_weapon/input_trigger_effect_weapon.yy",},},
     {"id":{"name":"input_check_double_pressed","path":"scripts/input_check_double_pressed/input_check_double_pressed.yy",},},
+    {"id":{"name":"s_boss_lunge","path":"sprites/s_boss_lunge/s_boss_lunge.yy",},},
     {"id":{"name":"input_check_opposing_pressed","path":"scripts/input_check_opposing_pressed/input_check_opposing_pressed.yy",},},
     {"id":{"name":"spr_fontset_sep","path":"sprites/spr_fontset_sep/spr_fontset_sep.yy",},},
     {"id":{"name":"__input_gamepad_guid_parse","path":"scripts/__input_gamepad_guid_parse/__input_gamepad_guid_parse.yy",},},
@@ -321,7 +322,7 @@
     {"id":{"name":"__input_validate_macros","path":"scripts/__input_validate_macros/__input_validate_macros.yy",},},
     {"id":{"name":"input_profile_import","path":"scripts/input_profile_import/input_profile_import.yy",},},
     {"id":{"name":"input_binding_get","path":"scripts/input_binding_get/input_binding_get.yy",},},
-    {"id":{"name":"Boss1","path":"sprites/Boss1/Boss1.yy",},},
+    {"id":{"name":"s_boss_idle","path":"sprites/s_boss_idle/s_boss_idle.yy",},},
     {"id":{"name":"snd_powerup","path":"sounds/snd_powerup/snd_powerup.yy",},},
     {"id":{"name":"input_motion_data_get","path":"scripts/input_motion_data_get/input_motion_data_get.yy",},},
     {"id":{"name":"input_virtual_debug_draw","path":"scripts/input_virtual_debug_draw/input_virtual_debug_draw.yy",},},
@@ -440,9 +441,9 @@
     {"id":{"name":"player_testing","path":"rooms/player_testing/player_testing.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"player_testing","path":"rooms/player_testing/player_testing.yy",},},
     {"roomId":{"name":"overworld_3_3","path":"rooms/overworld_3_3/overworld_3_3.yy",},},
     {"roomId":{"name":"temp_room_1","path":"rooms/temp_room_1/temp_room_1.yy",},},
-    {"roomId":{"name":"player_testing","path":"rooms/player_testing/player_testing.yy",},},
     {"roomId":{"name":"start_screen","path":"rooms/start_screen/start_screen.yy",},},
     {"roomId":{"name":"reset_screen","path":"rooms/reset_screen/reset_screen.yy",},},
     {"roomId":{"name":"temp_room_2","path":"rooms/temp_room_2/temp_room_2.yy",},},
