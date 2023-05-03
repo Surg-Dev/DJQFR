@@ -22,6 +22,7 @@
     {"name":"Walk","order":2,"path":"folders/Sprites/Player/Walk.yy",},
     {"name":"Tile Sets","order":1,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":7,"path":"folders/Timelines.yy",},
+<<<<<<< Updated upstream
     {"name":"Overworld","order":5,"path":"folders/Rooms/Overworld.yy",},
     {"name":"SFX","order":15,"path":"folders/SFX.yy",},
     {"name":"shop_items","order":17,"path":"folders/Objects/shop_items.yy",},
@@ -56,6 +57,8 @@
     {"name":"X5","order":9,"path":"folders/Rooms/Overworld/X5.yy",},
     {"name":"X6","order":10,"path":"folders/Rooms/Overworld/X6.yy",},
     {"name":"X0","order":11,"path":"folders/Rooms/Overworld/X0.yy",},
+=======
+>>>>>>> Stashed changes
   ],
   "ResourceOrderSettings": [
     {"name":"o_shooter","order":9,"path":"objects/o_shooter/o_shooter.yy",},
@@ -200,12 +203,16 @@
     {"name":"input_cursor_elastic_remove","order":3,"path":"scripts/input_cursor_elastic_remove/input_cursor_elastic_remove.yy",},
     {"name":"__input_gamepad_set_mapping","order":12,"path":"scripts/__input_gamepad_set_mapping/__input_gamepad_set_mapping.yy",},
     {"name":"o_silver_coin","order":2,"path":"objects/o_silver_coin/o_silver_coin.yy",},
+<<<<<<< Updated upstream
     {"name":"input_mouse_in_bounds","order":9,"path":"scripts/input_mouse_in_bounds/input_mouse_in_bounds.yy",},
     {"name":"overworld_3_4","order":3,"path":"rooms/overworld_3_4/overworld_3_4.yy",},
     {"name":"input_profile_reset_bindings","order":6,"path":"scripts/input_profile_reset_bindings/input_profile_reset_bindings.yy",},
     {"name":"input_profile_create","order":1,"path":"scripts/input_profile_create/input_profile_create.yy",},
     {"name":"input_profile_destroy","order":2,"path":"scripts/input_profile_destroy/input_profile_destroy.yy",},
     {"name":"input_binding_test_collisions","order":12,"path":"scripts/input_binding_test_collisions/input_binding_test_collisions.yy",},
+=======
+>>>>>>> Stashed changes
+    {"name":"o_key","order":15,"path":"objects/o_key/o_key.yy",},
     {"name":"o_key","order":15,"path":"objects/o_key/o_key.yy",},
     {"name":"o_reset_button","order":4,"path":"objects/o_reset_button/o_reset_button.yy",},
     {"name":"spr_bullet_mask","order":8,"path":"sprites/spr_bullet_mask/spr_bullet_mask.yy",},
