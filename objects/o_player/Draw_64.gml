@@ -18,7 +18,7 @@ if (showCollectibles) {
 	// Draw Coin Counter
 	draw_sprite_stretched(spr_gold_coin,1, 10, 10, 75, 75) 
 	draw_text_transformed(105, 5, o_player.coins, 4, 4, 0)
-	
+	// Draw inventory Bar
 	draw_sprite_stretched(
 		spr_inventory_bar,
 		1,
@@ -27,8 +27,23 @@ if (showCollectibles) {
 		spr_width_b * spr_scale,
 		spr_height_b * spr_scale
 	)
+	
+	
+	// Draw Items to Inventory
+	
+	for (i = 0; i < ds_list_size(inventoryItems); i++) {
+		draw_sprite_stretched(
+			ds_list_find_value(inventoryItems, i),
+			1,
+			(gui_width/2) - (spr_width_b * 0.5 * spr_scale) + (8 * spr_scale) + (i * (42 + sprite_get_width(ds_list_find_value(inventoryItems, i)))),
+			(gui_height - gui_height/8) - (spr_height_b * 0.5 * spr_scale) + (8 * spr_scale),
+			sprite_get_width(ds_list_find_value(inventoryItems, i)) * spr_scale,
+			sprite_get_height(ds_list_find_value(inventoryItems, i)) * spr_scale
+		)
+	}
+	
 }
 
-// Draw Items to Inventory
+
 
 	

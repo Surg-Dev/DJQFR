@@ -15,5 +15,19 @@ if (ds_map_exists(inventory, key)){
 }
 */
 
+
+if(!other.coin) {
+	/*
+	var _spr = object_get_sprite(other);
+	if (sprite_index != _spr)
+	{
+	    sprite_index = _spr;
+	}
+	*/
+	var _spr = object_get_sprite(other);
+	spr = sprite_get_name(_spr)
+	ds_list_add(inventoryItems, spr)
+	
+}
 instance_destroy(other);
 

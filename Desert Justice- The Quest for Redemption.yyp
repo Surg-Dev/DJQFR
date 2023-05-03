@@ -257,6 +257,7 @@
     {"id":{"name":"input_profile_create","path":"scripts/input_profile_create/input_profile_create.yy",},},
     {"id":{"name":"input_profile_destroy","path":"scripts/input_profile_destroy/input_profile_destroy.yy",},},
     {"id":{"name":"input_binding_test_collisions","path":"scripts/input_binding_test_collisions/input_binding_test_collisions.yy",},},
+    {"id":{"name":"o_key","path":"objects/o_key/o_key.yy",},},
     {"id":{"name":"o_reset_button","path":"objects/o_reset_button/o_reset_button.yy",},},
     {"id":{"name":"spr_bullet_mask","path":"sprites/spr_bullet_mask/spr_bullet_mask.yy",},},
     {"id":{"name":"input_player_ghost_set","path":"scripts/input_player_ghost_set/input_player_ghost_set.yy",},},

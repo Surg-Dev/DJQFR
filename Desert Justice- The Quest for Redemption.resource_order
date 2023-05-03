@@ -206,6 +206,7 @@
     {"name":"input_profile_create","order":1,"path":"scripts/input_profile_create/input_profile_create.yy",},
     {"name":"input_profile_destroy","order":2,"path":"scripts/input_profile_destroy/input_profile_destroy.yy",},
     {"name":"input_binding_test_collisions","order":12,"path":"scripts/input_binding_test_collisions/input_binding_test_collisions.yy",},
+    {"name":"o_key","order":15,"path":"objects/o_key/o_key.yy",},
     {"name":"o_reset_button","order":4,"path":"objects/o_reset_button/o_reset_button.yy",},
     {"name":"spr_bullet_mask","order":8,"path":"sprites/spr_bullet_mask/spr_bullet_mask.yy",},
     {"name":"input_player_ghost_set","order":9,"path":"scripts/input_player_ghost_set/input_player_ghost_set.yy",},
