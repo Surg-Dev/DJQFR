@@ -23,11 +23,12 @@
   "isDnd": false,
   "layers": [
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"tiles_foreground","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":19,"SerialiseWidth":34,"TileCompressedData":[
--15,0,-5,-2147483648,-15,0,-32,-2147483648,-2,0,-32,-2147483648,-2,0,-32,-2147483648,-2,0,-32,-2147483648,-2,0,-26,-2147483648,8,2001,2002,2003,2001,2002,2003,0,0,-26,
--2147483648,7,2001,2002,2003,2001,2002,2003,0,-13,-2147483648,6,2001,2002,2003,2001,2002,2003,-8,-2147483648,5,2001,2002,2003,0,0,-15,-2147483648,6,2001,2002,2003,2001,2002,
-2003,-8,-2147483648,3,2001,2002,2003,-17,-2147483648,6,2001,2002,2003,1302,2002,2003,-28,-2147483648,6,2001,2002,2003,2001,2002,2003,-28,-2147483648,6,2001,2002,2003,2001,2002,2003,
--15,-2147483648,1,0,-12,-2147483648,6,2001,2002,2003,2001,2002,2003,-14,-2147483648,-2,0,-32,-2147483648,-2,0,-32,-2147483648,-2,0,-32,-2147483648,-2,0,-32,-2147483648,-2,0,-32,
--2147483648,-16,0,-5,-2147483648,-14,0,],"TileDataFormat":1,},"tilesetId":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+-15,0,-5,-2147483648,-15,0,-32,-2147483648,-2,0,-32,-2147483648,-2,0,-15,-2147483648,2,1305,1306,-8,-2147483648,2,1305,1306,-5,-2147483648,-2,0,-15,-2147483648,2,1355,1356,-8,
+-2147483648,2,1355,1356,-5,-2147483648,-2,0,-26,-2147483648,8,2001,2002,2003,2001,2002,2003,0,0,-26,-2147483648,7,2001,2002,2003,2001,2002,2003,0,-13,-2147483648,6,2001,2002,
+2003,2001,2002,2003,-8,-2147483648,5,2001,2002,2003,0,0,-15,-2147483648,6,2001,2002,2003,2001,2002,2003,-8,-2147483648,3,2001,2002,2003,-17,-2147483648,6,2001,2002,2003,1302,
+2002,2003,-28,-2147483648,6,2001,2002,2003,2001,2002,2003,-28,-2147483648,6,2001,2002,2003,2001,2002,2003,-15,-2147483648,1,0,-12,-2147483648,6,2001,2002,2003,2001,2002,2003,-14,
+-2147483648,-2,0,-32,-2147483648,-2,0,-4,-2147483648,2,1305,1306,-17,-2147483648,2,1305,1306,-7,-2147483648,-2,0,-4,-2147483648,2,1355,1356,-17,-2147483648,2,1355,1356,-7,-2147483648,-2,
+0,-32,-2147483648,-2,0,-32,-2147483648,-16,0,-5,-2147483648,-14,0,],"TileDataFormat":1,},"tilesetId":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4FDF3348_1_3_1_1_1_1_2_3_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_room_transition_object","path":"objects/o_room_transition_object/o_room_transition_object.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"o_room_transition_object","path":"objects/o_room_transition_object/o_room_transition_object.yy",},"propertyId":{"name":"room_target","path":"objects/o_room_transition_object/o_room_transition_object.yy",},"value":"overworld_4_2",},
