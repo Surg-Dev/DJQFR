@@ -7,6 +7,7 @@ vspd = 3
 max_health = 100
 phealth = 100
 coins = 30
+hasKey = false
 
 // inventory = ds_map_create()
 inventoryItems = ds_list_create()
