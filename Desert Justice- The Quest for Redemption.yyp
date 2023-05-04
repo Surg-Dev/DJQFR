@@ -365,6 +365,7 @@
     {"id":{"name":"__input_config_profiles","path":"scripts/__input_config_profiles/__input_config_profiles.yy",},},
     {"id":{"name":"__input_class_gamepad_mapping","path":"scripts/__input_class_gamepad_mapping/__input_class_gamepad_mapping.yy",},},
     {"id":{"name":"s_boss2_follow_back","path":"sprites/s_boss2_follow_back/s_boss2_follow_back.yy",},},
+    {"id":{"name":"o_room_transition_basic","path":"objects/o_room_transition_basic/o_room_transition_basic.yy",},},
     {"id":{"name":"s_boss2_lunge_back","path":"sprites/s_boss2_lunge_back/s_boss2_lunge_back.yy",},},
     {"id":{"name":"input_binding_scan_clear_params","path":"scripts/input_binding_scan_clear_params/input_binding_scan_clear_params.yy",},},
     {"id":{"name":"input_profile_exists","path":"scripts/input_profile_exists/input_profile_exists.yy",},},
@@ -520,6 +521,8 @@
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"start_screen","path":"rooms/start_screen/start_screen.yy",},},
+    {"roomId":{"name":"d1","path":"rooms/d1/d1.yy",},},
+    {"roomId":{"name":"d2","path":"rooms/d2/d2.yy",},},
     {"roomId":{"name":"overworld_3_3","path":"rooms/overworld_3_3/overworld_3_3.yy",},},
     {"roomId":{"name":"player_testing","path":"rooms/player_testing/player_testing.yy",},},
     {"roomId":{"name":"temp_room_1","path":"rooms/temp_room_1/temp_room_1.yy",},},
@@ -574,8 +577,6 @@
     {"roomId":{"name":"overworld_6_4","path":"rooms/overworld_6_4/overworld_6_4.yy",},},
     {"roomId":{"name":"overworld_6_5","path":"rooms/overworld_6_5/overworld_6_5.yy",},},
     {"roomId":{"name":"overworld_6_6","path":"rooms/overworld_6_6/overworld_6_6.yy",},},
-    {"roomId":{"name":"d1","path":"rooms/d1/d1.yy",},},
-    {"roomId":{"name":"d2","path":"rooms/d2/d2.yy",},},
     {"roomId":{"name":"d3","path":"rooms/d3/d3.yy",},},
   ],
   "TextureGroups": [

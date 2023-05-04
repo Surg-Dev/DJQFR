@@ -1,4 +1,6 @@
 {
   "FolderOrderSettings": [],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"o_room_transition_basic","order":1,"path":"objects/o_room_transition_basic/o_room_transition_basic.yy",},
+  ],
 }
