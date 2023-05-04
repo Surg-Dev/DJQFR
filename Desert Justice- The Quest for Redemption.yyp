@@ -72,6 +72,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Walk","folderPath":"folders/Sprites/Player/Walk.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Music","folderPath":"folders/Music.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"controllerblacklist.csv","CopyToMask":-1,"filePath":"datafiles",},
