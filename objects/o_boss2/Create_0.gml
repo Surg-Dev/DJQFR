@@ -7,5 +7,4 @@ follow_distance = 100;
 lunge_cooldown_max = room_speed * 6; // 3 seconds between lunges (adjust as needed)
 min_lunge_distance = 60;
 stop_distance = 50
-
-
+hp = 8

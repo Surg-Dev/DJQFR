@@ -1,9 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "o_bullet2",
+  "name": "o_bullet_enemy",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_player_hurtobj","path":"objects/obj_player_hurtobj/obj_player_hurtobj.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":1,"eventType":7,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"o_solid","path":"objects/o_solid/o_solid.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -28,9 +30,12 @@
   "properties": [],
   "solid": false,
   "spriteId": {
+    "name": "spr_bullet_blue",
+    "path": "sprites/spr_bullet_blue/spr_bullet_blue.yy",
+  },
+  "spriteMaskId": {
     "name": "spr_bullet_mask",
     "path": "sprites/spr_bullet_mask/spr_bullet_mask.yy",
   },
-  "spriteMaskId": null,
   "visible": true,
 }

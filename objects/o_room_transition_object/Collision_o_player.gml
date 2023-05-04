@@ -22,6 +22,10 @@
 			_x = 16
 			_y = 144;
 			break;
+		case 5:
+			_x = 81
+			_y = 93;
+			break;
 		
 	}
 	o_player.x = _x
