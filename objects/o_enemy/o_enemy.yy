@@ -37,9 +37,6 @@
     "name": "spr_flame",
     "path": "sprites/spr_flame/spr_flame.yy",
   },
-  "spriteMaskId": {
-    "name": "spr_enemy_collision_mask",
-    "path": "sprites/spr_enemy_collision_mask/spr_enemy_collision_mask.yy",
-  },
+  "spriteMaskId": null,
   "visible": true,
 }

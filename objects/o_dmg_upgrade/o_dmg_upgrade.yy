@@ -1,17 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "o_bullet",
+  "name": "o_dmg_upgrade",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":1,"eventType":7,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"o_solid","path":"objects/o_solid/o_solid.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_player_hurtobj","path":"objects/obj_player_hurtobj/obj_player_hurtobj.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "shop_items",
+    "path": "folders/Objects/shop_items.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -30,12 +30,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_bullet",
-    "path": "sprites/spr_bullet/spr_bullet.yy",
+    "name": "spr_bullet_upgrade",
+    "path": "sprites/spr_bullet_upgrade/spr_bullet_upgrade.yy",
   },
-  "spriteMaskId": {
-    "name": "spr_bullet_mask",
-    "path": "sprites/spr_bullet_mask/spr_bullet_mask.yy",
-  },
+  "spriteMaskId": null,
   "visible": true,
 }
