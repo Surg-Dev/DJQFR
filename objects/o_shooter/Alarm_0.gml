@@ -1,4 +1,4 @@
-var bullet = instance_create_layer(x, y, layer, o_bullet2); 
+var bullet = instance_create_layer(x, y, layer, o_bullet); 
 with (bullet)
 {
    direction = point_direction(x, y, o_player.x, o_player.y); 
