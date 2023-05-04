@@ -20,6 +20,10 @@ if (instance_exists(o_player)) {
                 sprite_index = s_boss_lunge; // Change this to your lunging animation sprite
                 image_speed = 0.5; // Adjust animation speed as needed
                 lunge_cooldown = lunge_cooldown_max;
+				with(instance_create_layer(x,y,layer,o_bullet_enemy)){
+					direction = dir;
+					speed = 3
+				}
             }
             break;
 

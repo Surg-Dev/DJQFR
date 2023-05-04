@@ -6,7 +6,7 @@ vspd = 3
 // health variables
 max_health = 100
 phealth = 100
-coins = 30
+coins = 50
 hasKey = false
 
 // inventory = ds_map_create()
@@ -26,7 +26,7 @@ debug_timer = 0;
 
 //Upgrades
 shotgun = false;
-combat_roll = false;
+combat_roll = true;
 damage = false;
 hpup = false;
 roll_dir = [0,0]
