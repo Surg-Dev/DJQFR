@@ -1,8 +1,16 @@
 {
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
+    {"name":"o_shooter","order":3,"path":"objects/o_shooter/o_shooter.yy",},
+    {"name":"o_bullet3","order":1,"path":"objects/o_bullet3/o_bullet3.yy",},
+    {"name":"spr_bullet_big","order":3,"path":"sprites/spr_bullet_big/spr_bullet_big.yy",},
+    {"name":"spr_flame2","order":1,"path":"sprites/spr_flame2/spr_flame2.yy",},
+    {"name":"o_enemy","order":2,"path":"objects/o_enemy/o_enemy.yy",},
+    {"name":"o_boss2","order":1,"path":"objects/o_boss2/o_boss2.yy",},
     {"name":"spr_hp_upgrade","order":2,"path":"sprites/spr_hp_upgrade/spr_hp_upgrade.yy",},
     {"name":"spr_bullet_upgrade","order":1,"path":"sprites/spr_bullet_upgrade/spr_bullet_upgrade.yy",},
     {"name":"o_health_upgrade","order":1,"path":"objects/o_health_upgrade/o_health_upgrade.yy",},
+    {"name":"spr_gunring","order":2,"path":"sprites/spr_gunring/spr_gunring.yy",},
+    {"name":"o_gunring","order":4,"path":"objects/o_gunring/o_gunring.yy",},
   ],
 }
