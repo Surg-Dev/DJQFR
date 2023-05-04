@@ -14,8 +14,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "enemies",
+    "path": "folders/Objects/enemies.yy",
   },
   "parentObjectId": null,
   "persistent": true,
@@ -34,8 +34,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_player_idle_down",
-    "path": "sprites/spr_player_idle_down/spr_player_idle_down.yy",
+    "name": "spr_flame",
+    "path": "sprites/spr_flame/spr_flame.yy",
   },
   "spriteMaskId": {
     "name": "spr_enemy_collision_mask",
