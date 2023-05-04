@@ -39,10 +39,13 @@
     {"name":"inst_5F58188E","path":"rooms/temp_room_1/temp_room_1.yy",},
     {"name":"inst_FFE9685","path":"rooms/temp_room_1/temp_room_1.yy",},
     {"name":"inst_228D03EF","path":"rooms/temp_room_1/temp_room_1.yy",},
+    {"name":"inst_6015BD75","path":"rooms/temp_room_1/temp_room_1.yy",},
   ],
   "isDnd": false,
   "layers": [
-    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_1","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_1","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6015BD75","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_boss2","path":"objects/o_boss2/o_boss2.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":64.0,},
+      ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_3","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":23,"SerialiseWidth":40,"TileCompressedData":[
 -228,-2147483648,4,1277,1278,1279,1280,-36,-2147483648,4,1327,1328,1329,1330,-22,-2147483648,4,1483,1484,1485,1486,-10,-2147483648,-4,0,-22,-2147483648,4,1533,1534,1535,1536,-36,-2147483648,4,1583,1584,1585,1586,-36,
 -2147483648,4,1633,1634,1635,1636,-36,-2147483648,4,1683,0,0,1686,-36,-2147483648,4,1733,0,0,1736,-422,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},

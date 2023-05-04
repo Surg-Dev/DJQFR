@@ -5,10 +5,17 @@
   "ResourceOrderSettings": [
     {"name":"obj_player_hurtobj","order":2,"path":"objects/obj_player_hurtobj/obj_player_hurtobj.yy",},
     {"name":"s_boss_lunge","order":1,"path":"sprites/s_boss_lunge/s_boss_lunge.yy",},
+    {"name":"s_boss2_lunge_side","order":7,"path":"sprites/s_boss2_lunge_side/s_boss2_lunge_side.yy",},
     {"name":"obj_shotgun_pickup","order":1,"path":"objects/obj_shotgun_pickup/obj_shotgun_pickup.yy",},
-    {"name":"s_boss2_lunge","order":2,"path":"sprites/s_boss2_lunge/s_boss2_lunge.yy",},
+    {"name":"s_boss2_follow_front","order":3,"path":"sprites/s_boss2_follow_front/s_boss2_follow_front.yy",},
     {"name":"o_control","order":3,"path":"objects/o_control/o_control.yy",},
+    {"name":"s_boss2_lunge_front","order":2,"path":"sprites/s_boss2_lunge_front/s_boss2_lunge_front.yy",},
+    {"name":"s_boss2_follow_back","order":5,"path":"sprites/s_boss2_follow_back/s_boss2_follow_back.yy",},
+    {"name":"s_boss2_lunge_back","order":4,"path":"sprites/s_boss2_lunge_back/s_boss2_lunge_back.yy",},
+    {"name":"s_boss2_idle_back","order":8,"path":"sprites/s_boss2_idle_back/s_boss2_idle_back.yy",},
     {"name":"snd_powerup","order":1,"path":"sounds/snd_powerup/snd_powerup.yy",},
+    {"name":"s_boss2_idle_side","order":9,"path":"sprites/s_boss2_idle_side/s_boss2_idle_side.yy",},
     {"name":"spr_shotgun_icon","order":1,"path":"sprites/spr_shotgun_icon/spr_shotgun_icon.yy",},
+    {"name":"s_boss2_follow_side","order":6,"path":"sprites/s_boss2_follow_side/s_boss2_follow_side.yy",},
   ],
 }

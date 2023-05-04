@@ -34,8 +34,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "s_boss2_idle",
-    "path": "sprites/s_boss2_idle/s_boss2_idle.yy",
+    "name": "s_boss2_idle_front",
+    "path": "sprites/s_boss2_idle_front/s_boss2_idle_front.yy",
   },
   "spriteMaskId": {
     "name": "spr_enemy_collision_mask",
