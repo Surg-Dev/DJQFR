@@ -6,10 +6,13 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Solids",
+    "path": "folders/Objects/Solids.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "o_parent_solid",
+    "path": "objects/o_parent_solid/o_parent_solid.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

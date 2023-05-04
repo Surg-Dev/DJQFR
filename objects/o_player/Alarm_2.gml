@@ -46,16 +46,22 @@ switch(self_direction){
 with(instance_create_layer(x+_x, y+_y, layer, o_bullet)){
 		speed = 5
 		direction = _angle
+		dmg = (other.damage) ? 2 : 1
+		image_index = (other.damage) ? 1 : 0
 }
 
 if (shotgun){
 	with(instance_create_layer(x+_x, y+_y, layer, o_bullet)){
 			speed = 5
 			direction = _angle+5;
+			dmg = (other.damage) ? 2 : 1
+			image_index = (other.damage) ? 1 : 0
 	}
 	with(instance_create_layer(x+_x, y+_y, layer, o_bullet)){
 			speed = 5
 			direction = _angle-5;
+			dmg = (other.damage) ? 2 : 1
+			image_index = (other.damage) ? 1 : 0
 	}	
 }
 // Play shooting sound, vary pitch slightly to keep it interesting.

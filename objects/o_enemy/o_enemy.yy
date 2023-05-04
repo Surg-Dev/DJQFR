@@ -8,14 +8,14 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"o_player","path":"objects/o_player/o_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_player_hurtobj","path":"objects/obj_player_hurtobj/obj_player_hurtobj.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"o_bullet","path":"objects/o_bullet/o_bullet.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "enemies",
+    "path": "folders/Objects/enemies.yy",
   },
   "parentObjectId": null,
   "persistent": true,
@@ -34,12 +34,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_player_idle_down",
-    "path": "sprites/spr_player_idle_down/spr_player_idle_down.yy",
+    "name": "spr_flame",
+    "path": "sprites/spr_flame/spr_flame.yy",
   },
-  "spriteMaskId": {
-    "name": "spr_enemy_collision_mask",
-    "path": "sprites/spr_enemy_collision_mask/spr_enemy_collision_mask.yy",
-  },
+  "spriteMaskId": null,
   "visible": true,
 }

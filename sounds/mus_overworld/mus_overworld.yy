@@ -12,8 +12,8 @@
   "conversionMode": 0,
   "duration": 142.97133,
   "parent": {
-    "name": "Music",
-    "path": "folders/Music.yy",
+    "name": "Desert Justice- The Quest for Redemption",
+    "path": "Desert Justice- The Quest for Redemption.yyp",
   },
   "preload": false,
   "sampleRate": 44100,

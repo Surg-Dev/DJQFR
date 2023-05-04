@@ -14,13 +14,40 @@ if (alarm[1] != -1 and image_index == 3){
 var dx = hspd * hori;
 var dy = vspd * vert;
 
-//#region
-//if (input_check_double_pressed("left",,10)){
-//	dx=dx*2
-//}
-//dd = dx
-//#endregion
 
+// Check if you have the power and aren't currently rolling
+if (combat_roll and alarm[4] == -1){
+	if (input_check_double_pressed("left",,10)){
+		alarm[4] = 5;
+		roll_dir = [-1,0];
+	}
+	if (input_check_double_pressed("up",,10)){
+		alarm[4] = 5;
+		roll_dir = [0,-1]
+	}
+	if (input_check_double_pressed("right",,10)){
+		alarm[4] = 5;
+		roll_dir = [1,0]
+	}
+	if (input_check_double_pressed("down",,10)){
+		alarm[4] = 5;
+		roll_dir = [0,1]
+	}
+}
+
+// Do the roll instead of shooting action
+if (alarm[4] != -1){
+	dx = (hspd+2) * roll_dir[0];
+	dy = (vspd+2) * roll_dir[1];
+	move_and_collide(dx,dy,o_solid);
+	if (alarm[4] == 0){
+		// If we're stuck in a combat roll solid (i.e. a gap), just keep rolling!
+		// Note, never allow the player to roll into a roll solid into a real solid.
+		if (place_meeting(x,y,o_roll_solid)){
+			alarm[4]+=1;
+		}
+	}
+} else{
 
 #region Shooting
 if (input_check_pressed("shoot") and alarm[1] == -1){
@@ -58,7 +85,7 @@ if (input_check_pressed("shoot") and alarm[1] == -1){
 	image_index = 0;
 }
 #endregion
-
+}
 
 
 #region Sprite Selection Code
@@ -92,7 +119,6 @@ if (alarm[1] == -1){
 	} else {
 		//Otherwise, quickly calculate where the player is going and move on that
 		var projected_angle = point_direction(x,y,x+dx,y+dy);
-		debug_angle = projected_angle
 
 		switch (int64(projected_angle)){
 			case 0:
@@ -195,8 +221,14 @@ if (input_check_pressed("interact") and alarm[0] == -1){
 
 
 // Movement
-move_and_collide(dx, dy, o_solid)
+if (alarm[4] == -1){
+	move_and_collide(dx, dy, o_parent_solid)
+}
 
 if(phealth == 0) {
 	room_goto(reset_screen)
+}
+
+if (keyboard_check_pressed(vk_escape)){
+	game_end()
 }

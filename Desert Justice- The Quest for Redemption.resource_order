@@ -1,7 +1,5 @@
 {
-  "FolderOrderSettings": [
-    {"name":"Music","order":1,"path":"folders/Music.yy",},
-  ],
+  "FolderOrderSettings": [],
   "ResourceOrderSettings": [
     {"name":"obj_player_hurtobj","order":2,"path":"objects/obj_player_hurtobj/obj_player_hurtobj.yy",},
     {"name":"s_boss_lunge","order":1,"path":"sprites/s_boss_lunge/s_boss_lunge.yy",},
@@ -17,5 +15,8 @@
     {"name":"s_boss2_idle_side","order":9,"path":"sprites/s_boss2_idle_side/s_boss2_idle_side.yy",},
     {"name":"spr_shotgun_icon","order":1,"path":"sprites/spr_shotgun_icon/spr_shotgun_icon.yy",},
     {"name":"s_boss2_follow_side","order":6,"path":"sprites/s_boss2_follow_side/s_boss2_follow_side.yy",},
+    {"name":"spr_hp_upgrade","order":2,"path":"sprites/spr_hp_upgrade/spr_hp_upgrade.yy",},
+    {"name":"spr_bullet_upgrade","order":1,"path":"sprites/spr_bullet_upgrade/spr_bullet_upgrade.yy",},
+    {"name":"o_health_upgrade","order":1,"path":"objects/o_health_upgrade/o_health_upgrade.yy",},
   ],
 }

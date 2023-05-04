@@ -7,11 +7,11 @@ spr_width_b = sprite_get_width(spr_inventory_bar)
 spr_height_b = sprite_get_height(spr_inventory_bar)
 spr_scale = 3
 
+draw_text(200,200,room_get_name(room))
 
 //Draw Healthbar
-draw_healthbar(1675,25,1875,75, 
+draw_healthbar((hpup) ? 1475 : 1675,25,1875,75, 
 100 * (phealth/max_health), c_white, c_red, c_red,1, true, true)
-
 
 // Draw Inventory Bar
 if (showCollectibles) {
