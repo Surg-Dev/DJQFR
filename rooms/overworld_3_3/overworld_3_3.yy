@@ -22,6 +22,7 @@
     {"name":"inst_26A157B7","path":"rooms/overworld_3_3/overworld_3_3.yy",},
     {"name":"inst_51FCC5F6","path":"rooms/overworld_3_3/overworld_3_3.yy",},
     {"name":"inst_3EF8003C","path":"rooms/overworld_3_3/overworld_3_3.yy",},
+    {"name":"inst_4BCC11F4","path":"rooms/overworld_3_3/overworld_3_3.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -48,6 +49,7 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"o_room_transition_object","path":"objects/o_room_transition_object/o_room_transition_object.yy",},"propertyId":{"name":"room_target","path":"objects/o_room_transition_object/o_room_transition_object.yy",},"value":"overworld_2_3",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":5.0,"x":-16.0,"y":112.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_51FCC5F6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_control","path":"objects/o_control/o_control.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":16.0,"y":-48.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4BCC11F4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_health_upgrade","path":"objects/o_health_upgrade/o_health_upgrade.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":580.0,"y":-26.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Solids","depth":200,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4FFAA131","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_solid","path":"objects/o_solid/o_solid.yy",},"properties":[],"rotation":0.0,"scaleX":15.0,"scaleY":1.0,"x":0.0,"y":0.0,},

@@ -1,6 +1,8 @@
 {
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
+    {"name":"spr_hp_upgrade","order":2,"path":"sprites/spr_hp_upgrade/spr_hp_upgrade.yy",},
     {"name":"spr_bullet_upgrade","order":1,"path":"sprites/spr_bullet_upgrade/spr_bullet_upgrade.yy",},
+    {"name":"o_health_upgrade","order":1,"path":"objects/o_health_upgrade/o_health_upgrade.yy",},
   ],
 }

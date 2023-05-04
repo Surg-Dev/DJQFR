@@ -27,4 +27,5 @@ debug_timer = 0;
 shotgun = false;
 combat_roll = false;
 damage = false;
+hpup = false;
 roll_dir = [0,0]
